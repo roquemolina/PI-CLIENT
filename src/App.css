@@ -1,0 +1,278 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: lightsteelblue;
+}
+
+*,
+*:after,
+*:before{
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  padding: .5rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.header h3 {
+  margin: 1rem;
+  margin-top: auto;
+  font-size: xx-large;
+}
+.header button {
+  width: 12rem;
+  height: 3rem;
+  background-color: cornsilk;
+  border-color: brown;
+  border: solid 3px lightslategrey;
+  margin: 5px;
+  font-size: medium;
+  font-weight: bold;
+  color: lightcoral;
+}
+
+.home h3{
+  margin: 1rem;
+  text-align: center;
+  font-size: x-large;
+}
+
+.form-search {
+  margin: auto;
+  text-align: center;
+}
+
+.form-search input {
+   display: block;
+   margin: auto;
+   padding: .25rem;
+   border-radius: .25rem;
+   font-size: 1rem;
+}
+
+a {
+  color: blue;
+  transition: color o.3s, ease;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.grid-fluid {
+  margin: 1rem auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+header > * {
+  margin: 1rem auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  background-color: lightgoldenrodyellow;
+}
+
+.card p {
+  display:flex;
+  justify-content: space-between;
+}
+.card h2 {
+  display:flex;
+  justify-content: space-between;
+}
+.detail-page {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  background-color: aliceblue;
+}
+.detail-page img {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+.detail-page h2,
+.detail-page h3 {
+  margin: 1.5rem;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.form-validation {
+  width: inherit;
+  text-align: center;
+}
+.form-view {
+  background-color: lightgray;
+  width: inherit;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+  text-align: center;
+}
+.form-view h2{
+  text-align: center;
+}
+.form-view button{
+  text-align: center;
+  width: 12rem;
+  height: 5rem;
+  font-size: x-large;
+  color: grey;
+  background-color: lightcyan;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+
+.form-validation > input,
+.form-validation > textarea {
+  width: 30%;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  border-radius: 2rem;
+}
+
+.form-validation legend,
+.contact-form-response {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-validation input[type="submit"] {
+  width: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-validation > textarea {
+  height: 5rem;
+  resize: none;
+}
+
+.form-validation > input {
+  height: 2rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+}
+.pagination button{
+  text-align: center;
+  width: 5rem;
+  height: 3rem;
+  font-size: x-large;
+  color: grey;
+  background-color: lightcyan;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+.pagination p{
+font-size: medium;
+font-weight: bold;
+text-align: center;
+justify-content: center;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.card-filters {
+  display:block;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.card-filters button{
+  text-align: center;
+  width: 9rem;
+  height: 3rem;
+  font-size: large;
+  color: grey;
+  background-color: lightcyan;
+  margin: 1rem;
+  border-radius: 5rem;
+}
+.continent-filter {
+  justify-content: space-between;
+  margin: 3rem;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* 
+
+.error {
+  padding: 1rem;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+
+.loader {
+  margin: 1rem auto;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+
+
+.post-page > aside {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.post-page > hr {
+  border: thin solid grey;
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.post-page > time {
+  margin: 1rem auto;
+  display: block;
+}
+
+.post-page > article {
+  padding: 0 2rem;
+}
+
+.post-page img,
+.post-page audio,
+.post-page iframe,
+.post-page video {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+ */
