@@ -25,6 +25,7 @@ function Details() {
           window.alert('No hay paise con ese ID');
        }
     });
+    // eslint-disable-next-line
  }, [detailId]);
 
   return ( 

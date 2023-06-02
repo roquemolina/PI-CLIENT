@@ -28,6 +28,7 @@ const CardContaner = () => {
          setDisplayed(pagination.items);
          setMaxPage(pagination.totalPages);
          setDisplayedObj(countries);
+         // eslint-disable-next-line
       }, [countries]);
    
    const putActivities = (event) => {
@@ -58,6 +59,7 @@ const CardContaner = () => {
    useEffect(() => {
       setCurrentPage(1);
       setDisplayedObj(searchQuery);
+      // eslint-disable-next-line
       pagination = paginate(searchQuery);
       setDisplayed(pagination.items);
       setMaxPage(pagination.totalPages);
@@ -66,6 +68,7 @@ const CardContaner = () => {
     useEffect(() => {
        setCurrentPage(1);
        setDisplayedObj(continentFilter);
+       // eslint-disable-next-line
        pagination = paginate(continentFilter);
        setDisplayed(pagination.items);
        setMaxPage(pagination.totalPages);

@@ -1,5 +1,3 @@
-import { useSelector } from "react-redux";
-
 const ActCard = ({id, name, length, difficulty, season, paises}) => {
 
   return ( 
